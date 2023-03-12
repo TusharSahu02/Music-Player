@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxStrokeColor="@color/black_shade_2"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        app:startIconTint="@color/black_shade_2"
+        android:hint="Playlist Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/playlist_add"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playListName"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:maxLength="40"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:boxStrokeColor="@color/black_shade_2"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        app:startIconTint="@color/black_shade_2"
+        android:hint="Your Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/playlist_add"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/yourName"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:maxLength="40"
+            android:layout_height="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
